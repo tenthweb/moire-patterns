@@ -31,8 +31,8 @@ function makeScreen(g, scaleFactor,colR,colG,colB) {
   g.translate(-width / 2, -height / 2);
 
   g.erase();
-  let spacing = 30;
-  let r = 10;
+  let spacing = 20;
+  let r = 5;
 
   for (let x = 0; x < width; x += spacing) {
     for (let y = 0; y < height; y += spacing) {
