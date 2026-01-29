@@ -8,7 +8,7 @@ function setup() {
   screenA = createGraphics(width, height);
   screenB = createGraphics(width, height);
 
-  makeScreen(screenA, 1.0, 0255, 0, 0);
+  makeScreen(screenA, 1.0, 0, 0, 255);
 }
 
 function draw() {
